@@ -25,12 +25,13 @@
   },
   "lint-staged": {
     "*.json": [
-      "pnpx prettier --write"
+      "prettier --write"
     ]
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
+    "prettier": "^3.8.3",
     "turbo": "^2.9.6"
   }
 }
