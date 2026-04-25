@@ -1,0 +1,30 @@
+{
+  "name": "@mareuter/prettier-config",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./index.js",
+  "description": "Prettier configuration for projects",
+  "license": "MIT",
+  "scripts": {
+    "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
+    "dry-run:npm": "npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareuter/npm-shared.git"
+  },
+  "homepage": "https://github.com/mareuter/npm-shared/prettier-config#readme",
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": {
+    "name": "Michael Reuter"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.3"
+  }
+}

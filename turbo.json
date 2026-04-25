@@ -1,0 +1,9 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "tasks": {
+    "dev": { "cache": false, "persistent": true },
+    "check": { "dependsOn": ["^check"] },
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**"] },
+	"dry-run:npm": { "dependsOn": ["^dry-run:npm"] }
+  }
+}

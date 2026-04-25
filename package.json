@@ -1,0 +1,23 @@
+{
+  "name": "npm-shared",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo for my shared configuration NPM packages.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareuter/npm-shared.git"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "check": "turbo check",
+    "build": "turbo build",
+    "dry-run:npm": "turbo dry-run:npm",
+    "format": "prettier --write ."
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "turbo": "^2.9.6"
+  }
+}

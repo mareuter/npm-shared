@@ -1,0 +1,33 @@
+{
+  "name": "@mareuter/typescript-config",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TypeScript configuration for projects",
+  "license": "MIT",
+  "scripts": {
+    "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
+    "dry-run:npm": "npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareuter/npm-shared.git"
+  },
+  "homepage": "https://github.com/mareuter/npm-shared/typescript-config#readme",
+  "keywords": [
+    "typescript",
+    "typescriptconfig"
+  ],
+  "author": {
+    "name": "Michael Reuter"
+  },
+  "files": [
+    "tsconfig.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
