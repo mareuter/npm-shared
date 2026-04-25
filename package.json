@@ -13,11 +13,24 @@
     "check": "turbo check",
     "build": "turbo build",
     "dry-run:npm": "turbo dry-run:npm",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.32.1",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.json": [
+      "pnpx prettier --write"
+    ]
+  },
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "turbo": "^2.9.6"
   }
 }
