@@ -24,6 +24,11 @@
     "tsconfig.json",
     "README.md"
   ],
+  "lint-staged": {
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "typescript": "^6.0.3"
   },

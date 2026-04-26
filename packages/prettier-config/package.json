@@ -21,6 +21,11 @@
   "author": {
     "name": "Michael Reuter"
   },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "prettier": "^3.8.3"
   },
