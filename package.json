@@ -16,7 +16,8 @@
     "format": "prettier --write .",
     "prepare": "husky",
     "changeset": "changeset",
-    "cs:version": "changeset version"
+    "cs:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.32.1",
