@@ -8,10 +8,8 @@ Vitest configuration for libraries and projects.
 pnpm add -DE @mareuter/vitest-config
 ```
 
-## Usage
-
-### package.json
+**Note**: To use this package you must install the peer dependencies.
 
 ```
-{ "vitest": "@mareuter/vitest-config" }
+pnpm add -DE vitest @vitest/coverage-istanbul
 ```
