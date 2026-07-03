@@ -49,6 +49,7 @@
   },
   "peerDependencies": {
     "@vitest/coverage-istanbul": "^4.1.8",
+    "@vitest/ui": "4.1.8",
     "vitest": "^4.1.8"
   }
 }
