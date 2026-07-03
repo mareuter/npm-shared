@@ -1,6 +1,6 @@
 {
   "name": "@mareuter/vitest-config",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "description": "Vitest configuration for projects",
   "license": "MIT",
@@ -26,11 +26,9 @@
     "name": "Michael Reuter"
   },
   "files": [
-    "src/index.js",
-    "src/configs/base-config.ts",
-    "src/configs/ui-config.ts",
     "README.md"
   ],
+  "main": "src/index.js",
   "lint-staged": {
     "*.{json,md}": [
       "prettier --write"
