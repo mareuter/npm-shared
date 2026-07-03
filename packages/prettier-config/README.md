@@ -11,6 +11,7 @@ pnpm add -DE @mareuter/prettier-config
 ## Usage
 
 ### package.json
+
 ```
 { "prettier": "@mareuter/prettier-config" }
 ```
