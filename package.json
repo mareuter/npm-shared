@@ -17,7 +17,9 @@
     "prepare": "husky",
     "changeset": "changeset",
     "changeset:version": "changeset version",
-    "changeset:publish": "changeset publish"
+    "changeset:publish": "changeset publish",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.32.1",

@@ -4,6 +4,12 @@
     "dev": { "cache": false, "persistent": true },
     "check": { "dependsOn": ["^check"] },
     "build": { "dependsOn": ["^build"], "outputs": ["dist/**"] },
-	"dry-run:npm": { "dependsOn": ["^dry-run:npm"] }
+    "dry-run:npm": { "dependsOn": ["^dry-run:npm"] },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "lint:fix": {
+      "dependsOn": ["^lint:fix"]
+    }
   }
 }
