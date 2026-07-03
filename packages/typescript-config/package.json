@@ -27,8 +27,7 @@
     "name": "Michael Reuter"
   },
   "files": [
-    "**/*.json",
-    "README.md"
+    "**/*.json"
   ],
   "lint-staged": {
     "*.{json,md}": [
