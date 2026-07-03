@@ -1,0 +1,7 @@
+{
+  "extends": "../transpile.json",
+  "compilerOptions": {
+    /* Code does not run in DOM */
+    "lib": ["ES2022"]
+  }
+}

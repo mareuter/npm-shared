@@ -30,3 +30,5 @@ Here is a minimal configuration file that extends the provided configuration:
   "exclude": ["node_modules", "dist"]
 }
 ```
+
+Configuration split up ideas borrowed from [total-typescript](https://github.com/total-typescript/tsconfig).
