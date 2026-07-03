@@ -4,14 +4,7 @@ export const baseConfig = defineConfig({
   test: {
     coverage: {
       provider: 'istanbul',
-      reporter: [
-        [
-          'json',
-          {
-            file: `../coverage.json`,
-          },
-        ],
-      ],
+      reporter: ['html'],
       enabled: true,
     },
   },
