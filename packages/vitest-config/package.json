@@ -26,9 +26,10 @@
     "name": "Michael Reuter"
   },
   "files": [
-    "README.md"
+    "./configs/*.js",
+    "index.js"
   ],
-  "main": "src/index.js",
+  "main": "index.js",
   "lint-staged": {
     "*.{json,md}": [
       "prettier --write"
