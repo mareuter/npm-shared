@@ -1,5 +1,5 @@
 /** @type {import("eslint").Linter.Config} */
 
-import { config } from "@mareuter/eslint-config/base";
+import { config } from '@mareuter/eslint-config/base'
 
-export default config;
+export default config

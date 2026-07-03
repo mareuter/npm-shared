@@ -1,12 +1,12 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig } from 'vitest/config'
 
 export const baseConfig = defineConfig({
   test: {
     coverage: {
-      provider: "istanbul",
+      provider: 'istanbul',
       reporter: [
         [
-          "json",
+          'json',
           {
             file: `../coverage.json`,
           },
@@ -15,4 +15,4 @@ export const baseConfig = defineConfig({
       enabled: true,
     },
   },
-});
+})
