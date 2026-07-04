@@ -1,0 +1,7 @@
+{
+  "extends": "../transpile.json",
+  "compilerOptions": {
+    /* Code runs in DOM */
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  }
+}

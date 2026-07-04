@@ -4,6 +4,12 @@
   "type": "module",
   "description": "TypeScript configuration for projects",
   "license": "MIT",
+  "exports": {
+    "./tsc/dom": "./tsc/dom/app.json",
+    "./tsc/dom/app": "./tsc/dom/app.json",
+    "./tsc/dom/react": "./tsc/dom/react.json",
+    "./tsc/no-dom/app": "./tsc/no-dom/app.json"
+  },
   "scripts": {
     "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
     "dry-run:npm": "npm publish --dry-run"
@@ -21,8 +27,7 @@
     "name": "Michael Reuter"
   },
   "files": [
-    "tsconfig.json",
-    "README.md"
+    "**/*.json"
   ],
   "lint-staged": {
     "*.{json,md}": [
