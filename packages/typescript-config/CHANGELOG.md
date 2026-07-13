@@ -1,5 +1,12 @@
 # @mareuter/typescript-config
 
+## 0.1.2
+
+### Patch Changes
+
+- Fix README
+- Fix typo in react.json config
+
 ## 0.1.1
 
 ### Patch Changes
